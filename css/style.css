@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@800&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Sans+TC:wght@800&family=Raleway:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1100px;
+    margin: auto;
+    font-size: 16px;
+    background-color: #111111;
+    border: 1px solid black;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    max-width: 60%;
+    margin: auto;
+    padding: 0 3%; 
+    gap: 8%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    color: #3b3b3b;
+}
+
+#header {
+    padding: 0 5vw;
+    display: flex;
+    margin: auto;
+    gap: 10%;
+}
+
+.imagen-personal {
+    min-width: 30%;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imagen-personal img {
+    margin: auto;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.datos-personales {
+    min-width: 70%; 
+    padding: 8% 0;
+}
+
+.datos-personales .nombre-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px 0 20px;
+}
+
+/* NOMBRE COMPLETO */
+.datos-personales .nombre-titulo h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: bolder;
+}    
+
+/* OFICIO */
+.datos-personales .nombre-titulo h3 {
+    color: rgb(24, 71, 137);
+}
+
+.datos-personales .contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.datos-personales .contacto .item-contacto:nth-child(1) {
+    padding-left: 2.5px;
+}
+
+.datos-personales .contacto .item-contacto:nth-child(3) {
+    padding-left: .5px;
+}
+
+.datos-personales .contacto .item-contacto:nth-child(4) {
+    padding-left: 2.8px;
+}
+
+.datos-personales .contacto .item-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.datos-personales .contacto svg {
+    height: 20px;
+    fill: rgb(24, 71, 137);
+}
+
+/* ENLACE AL GITHUB DEL PORTAFOLIO */
+#enlace-portafolio {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+/* LÍNEAS DIVISORIAS DE SECCIÓN */
+.border-bottom {
+    border-bottom: rgb(24, 71, 137) solid 3.5px;
+    padding-bottom: 20px;
+}
+
+/* ESPACIADO ENTRE SECCIÓN */
+.padding-top {
+    padding-top: 20px;
+}
+
+/* TITULOS DE SECCIONES */
+.subtitulo {
+    min-width: 30%;
+    color: #111111;
+    font-weight: 700;
+    font-style: bolder;
+    font-family: 'Raleway', sans-serif;
+    text-transform: upperCase;
+}
+
+.habilidades-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* SECCIÓN CURSOS */
+.cursos-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cursos-texto .cursos-descripcion li {
+    padding: 1px;
+    margin-left: 20px;
+}
+
+/* BOTÓN VER MÁS*/
+.cursos-texto span {
+    width: 100%;
+    margin-left: 0;
+    color: rgb(24, 71, 137);
+    font-style: italic;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* CLASE PARA OCULTAR LISTA DE CURSOS*/
+.hidden {
+    opacity: 0;
+    transition: easy 5s;
+    display: none;
+}
+
+/* SECCIÓN EXPERIENIA LABORAL */
+.experiencia-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experiencia-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    gap: 4px;
+}
+
+.puesto-texto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 5px;
+    gap: 8px;
+}
+
+/* SECCIÓN EDUCACIÓN */
+.educacion-texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* SUBTITULOS DE LOS ITEMS DE EDUCACIÓN */
+.subtitulo-item {
+    min-width: 100%;
+    display: flex;
+}
+
+/* PÁRRAFOS CON LISTA DE ESTUDIOS */
+
+.educacion-descripcion {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    gap: 8px;
+}
+
+/* COLUMNAS DE EMPRESAS Y NIVEL ACADÉMICO ALCANZADO */
+.empresa,
+.nivel-alcanzado {
+    min-width: 25%;
+    max-width: 30%;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}

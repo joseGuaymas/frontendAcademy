@@ -1,0 +1,31 @@
+@media (min-width: 480px) and (max-width: 767px) {
+    body {
+        min-width: 480px;
+        font-size: 14px;
+    }
+
+    section {
+        min-width: 100%;
+        gap: 1%;
+        padding: 0 1%;
+    }
+
+    #header {
+        gap: 5%;
+        display: flex;
+        margin: auto;
+    }
+
+    .imagen-personal {
+        min-width: 20%;
+        max-width: 25%;
+    }
+
+    .datos-personales .nombre-titulo {
+        margin-top: 1px;
+    }
+
+    .subtitulo {
+        max-width: 30%;
+    }
+} 
