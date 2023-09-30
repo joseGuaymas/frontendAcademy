@@ -19,6 +19,7 @@
     .imagen-personal {
         min-width: 20%;
         max-width: 25%;
+        padding-top: 0;
     }
 
     .datos-personales .nombre-titulo {
